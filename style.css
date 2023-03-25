@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.constructor{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    bottom: 0;
+    height: 500px;
+    background-color: black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#value{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 50px;
+    font-size: 20px;
+    border: 0;
+}
+
+.calculator{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    grid-gap: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(94, 93, 93);
+    border-radius: 30px;
+}
+
+#angam{
+    background-color: orange;
+}
+#bajanum{
+    background-color: orange;
+}
+#hanum{
+    background-color: orange;
+}
+#jnjel{
+    background-color: orange;
+}
+
