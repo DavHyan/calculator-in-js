@@ -3,6 +3,9 @@ function tivAvelachnum(value){
     let input = document.getElementById('value')
     input.value += value;    
 }
+
+
+////------add .
 let bool;
 let number = function(start,end){
   for(let i = start; i <= end;i++){
@@ -46,7 +49,7 @@ function dotAdd(){
     input.value += '.'
   }
 }
-
+///----
 let havasar = document.getElementById('havasar');
 havasar.addEventListener('click',function(){
     let input = document.getElementById('value');
